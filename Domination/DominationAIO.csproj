@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A1D86E6-FB6E-4A40-99B9-754D0C8A3F40}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DominationAIO</RootNamespace>
+    <AssemblyName>DominationAIO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <OutputPath>bin\Release</OutputPath>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <CscToolPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\Roslyn</CscToolPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnsoulSharp">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\EnsoulSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="EnsoulSharp.SDK">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\EnsoulSharp.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics">
+      <HintPath>C:\Users\8\Desktop\EnsoulSharp\Reference\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Champions\Akali.cs" />
+    <Compile Include="Champions\Aphelios By FunnySlayer.cs" />
+    <Compile Include="Champions\Blit.cs" />
+    <Compile Include="Champions\Brand.cs" />
+    <Compile Include="Champions\Ezreal.cs" />
+    <Compile Include="Champions\MasterYi.cs" />
+    <Compile Include="Champions\Pyke.cs" />
+    <Compile Include="Champions\Samira.cs" />
+    <Compile Include="Champions\Sion.cs" />
+    <Compile Include="Champions\GangPlank\Barrel.cs" />
+    <Compile Include="Champions\GangPlank\Config.cs" />
+    <Compile Include="Champions\GangPlank\DelayManager.cs" />
+    <Compile Include="Champions\GangPlank\Helper.cs" />
+    <Compile Include="Champions\GangPlank\Program.cs" />
+    <Compile Include="Champions\GangPlank\version.cs" />
+    <Compile Include="Champions\Kaisa By FunnySlayer.cs" />
+    <Compile Include="Champions\Zoe.cs" />
+    <Compile Include="Common\Logichelper.cs" />
+    <Compile Include="Evade\BlockSpellData.cs" />
+    <Compile Include="Evade\BlockSpellDataBase.cs" />
+    <Compile Include="Evade\Collision.cs" />
+    <Compile Include="Evade\CollisionObjectTypes.cs" />
+    <Compile Include="Evade\DamageBoostDatabase.cs" />
+    <Compile Include="Evade\DetectedCollision.cs" />
+    <Compile Include="Evade\DetectionType.cs" />
+    <Compile Include="Evade\EvadeManager.cs" />
+    <Compile Include="Evade\EvadeOthers.cs" />
+    <Compile Include="Evade\EvadeSpellData.cs" />
+    <Compile Include="Evade\EvadeSpellDatabase.cs" />
+    <Compile Include="Evade\EvadeTargetManager.cs" />
+    <Compile Include="Evade\FastPredResult.cs" />
+    <Compile Include="Evade\FoundIntersection.cs" />
+    <Compile Include="Evade\Geometry.cs">
+      <DependentUpon>EvadeTargetManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Evade\IsSafeResult.cs" />
+    <Compile Include="Evade\SafePathResult.cs" />
+    <Compile Include="Evade\Skillshot.cs" />
+    <Compile Include="Evade\SkillshotDetector.cs" />
+    <Compile Include="Evade\SkillShotType.cs" />
+    <Compile Include="Evade\SpellData.cs" />
+    <Compile Include="Evade\SpellDatabase.cs" />
+    <Compile Include="Evade\Utils.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\AoePrediction.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\Collision.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\CollisionableObjects.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\HitChance.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\Prediction.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\PredictionInput.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\PredictionOutput.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\SkillshotType.cs" />
+    <Compile Include="FunnySlayerCommon\FSPrediction\StoredPath.cs" />
+    <Compile Include="FunnySlayerCommon\FSspell.cs" />
+    <Compile Include="FunnySlayerCommon\FSTargetSelector.cs" />
+    <Compile Include="FunnySlayerCommon\MenuClass.cs" />
+    <Compile Include="FunnySlayerCommon\OnAction.cs" />
+    <Compile Include="Helper\CastManager.cs" />
+    <Compile Include="Common\Champion.cs" />
+    <Compile Include="Helper\DrawingManager.cs" />
+    <Compile Include="Helper\HeroManager.cs" />
+    <Compile Include="Helper\MenuHelper.cs" />
+    <Compile Include="Helper\MinionManager.cs" />
+    <Compile Include="Helper\SpellHelper.cs" />
+    <Compile Include="Champions\Troll Chat xD\Core\Troll.cs" />
+    <Compile Include="Champions\Troll Chat xD\Event\EventManager.cs" />
+    <Compile Include="Champions\Troll Chat xD\Helper\MenuHelper.cs" />
+    <Compile Include="Champions\Troll Chat xD\Menu\MenuManager.cs" />
+    <Compile Include="Champions\Troll Chat xD\Program.cs" />
+    <Compile Include="Champions\skinhack.cs" />
+    <Compile Include="Common\YasuoSpellDatabase.cs" />
+    <Compile Include="NewPlugins\BaseUlt\MyBS.cs" />
+    <Compile Include="NewPlugins\Gwen\MyGwen.cs" />
+    <Compile Include="NewPlugins\Irelia\Helper.cs" />
+    <Compile Include="NewPlugins\Irelia\EventsIrelia.cs" />
+    <Compile Include="NewPlugins\Irelia\Irelia.cs" />
+    <Compile Include="NewPlugins\Irelia\LogicE.cs" />
+    <Compile Include="NewPlugins\Irelia\LogicQ.cs" />
+    <Compile Include="NewPlugins\Irelia\LogicR.cs" />
+    <Compile Include="NewPlugins\Irelia\MenuIrelia.cs" />
+    <Compile Include="NewPlugins\Jinx\MyJinx.cs" />
+    <Compile Include="NewPlugins\Katarina\MyKatarina.cs" />
+    <Compile Include="NewPlugins\Leesin\MyLee.cs" />
+    <Compile Include="NewPlugins\Riven\MyRiven.cs" />
+    <Compile Include="NewPlugins\Sylas\MySylas.cs" />
+    <Compile Include="NewPlugins\URF_Lucian.cs" />
+    <Compile Include="NewPlugins\Vayne\MyVayne.cs" />
+    <Compile Include="NewPlugins\VelKoz\MyVelKoz.cs" />
+    <Compile Include="NewPlugins\Viego\MyViego.cs" />
+    <Compile Include="NewPlugins\Xerath\MyXerath.cs" />
+    <Compile Include="NewPlugins\Yasuo\MyYS.cs" />
+    <Compile Include="NewPlugins\Yasuo\YShelper.cs" />
+    <Compile Include="NewPlugins\Yone\MyYone.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SebbyLibPorted\Cache.cs" />
+    <Compile Include="SebbyLibPorted\Events.cs" />
+    <Compile Include="SebbyLibPorted\Geometry.cs" />
+    <Compile Include="SebbyLibPorted\HealthPrediction.cs" />
+    <Compile Include="SebbyLibPorted\MEC.cs" />
+    <Compile Include="SebbyLibPorted\MenuExtensions.cs" />
+    <Compile Include="SebbyLibPorted\Movement.cs" />
+    <Compile Include="SebbyLibPorted\OktwCommon.cs" />
+    <Compile Include="SebbyLibPorted\Orbwalking.cs" />
+    <Compile Include="SebbyLibPorted\PredictionOktw.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\AIHeroClientExtensions.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\ArcPrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\CirclePrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\ClipperWrapper.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\Collision.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\ConePrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\ConfigMenu.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\Drawings.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\Geometry.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\LinePrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\MinionManager.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\PathTracker.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\Prediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\RingPrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\SpellExtensions.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\StasisPrediction.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\Utility.cs" />
+    <Compile Include="SebbyLibPorted\SPrediction\VectorPrediction.cs" />
+    <Compile Include="SPrediction\AIHeroClientExtensions.cs" />
+    <Compile Include="SPrediction\ArcPrediction.cs" />
+    <Compile Include="SPrediction\CirclePrediction.cs" />
+    <Compile Include="SPrediction\ClipperWrapper.cs" />
+    <Compile Include="SPrediction\Collision.cs" />
+    <Compile Include="SPrediction\ConePrediction.cs" />
+    <Compile Include="SPrediction\ConfigMenu.cs" />
+    <Compile Include="SPrediction\Drawings.cs" />
+    <Compile Include="SPrediction\Geometry.cs" />
+    <Compile Include="SPrediction\LinePrediction.cs" />
+    <Compile Include="SPrediction\MinionManager.cs" />
+    <Compile Include="SPrediction\PathTracker.cs" />
+    <Compile Include="SPrediction\Prediction.cs" />
+    <Compile Include="SPrediction\RingPrediction.cs" />
+    <Compile Include="SPrediction\SpellExtensions.cs" />
+    <Compile Include="SPrediction\StasisPrediction.cs" />
+    <Compile Include="SPrediction\Utility.cs" />
+    <Compile Include="SPrediction\VectorPrediction.cs" />
+    <Compile Include="TrackerHelper.cs" />
+    <Compile Include="TyDaoHungAIO\Anivia.cs" />
+    <Compile Include="TyDaoHungAIO\Fiora.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplank.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankAuto.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankBarrels.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankCombo.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankConfig.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankHarass.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankHelper.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankJungleClear.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankLaneClear.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoGangplankVariables.cs" />
+    <Compile Include="TyDaoHungAIO\Gangplank\BadaoMainVariables.cs" />
+    <Compile Include="TyDaoHungAIO\Jayce.cs" />
+    <Compile Include="TyDaoHungAIO\Kayle.cs" />
+    <Compile Include="TyDaoHungAIO\Viktor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Champions\Troll Chat xD\obj\" />
+    <Folder Include="NewPlugins\Draven\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\LoadBitmap.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

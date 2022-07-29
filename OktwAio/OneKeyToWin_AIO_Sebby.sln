@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneKeyToWin_AIO_Sebby", "OneKeyToWin_AIO_Sebby.csproj", "{D2879A15-F477-42D0-B20D-F46428258E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2879A15-F477-42D0-B20D-F46428258E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2879A15-F477-42D0-B20D-F46428258E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2879A15-F477-42D0-B20D-F46428258E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2879A15-F477-42D0-B20D-F46428258E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFEC3DBF-F9DC-4783-9277-C981048E7A64}
+	EndGlobalSection
+EndGlobal
