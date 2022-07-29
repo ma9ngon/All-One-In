@@ -1,6 +1,8 @@
 # All-One-In Support:
 # Domination
 * Champion list:Sylas, Leesin, Aphelios, Velkoz, Viego, Jinx, Fiora, Xerath, Yasuo, Katarina, Blitzcrank, Zoe, Samira, Yi, Brand, Irelia, Vayne, Kaisa, Gangplank, Sion, Akali, Ezreal, Pyke, Kayle, Viktor, Lucian, Anivia, Jayce, Gwen, Riven, VelKoz
+# EzAio 
+* Champion list: Ashe.Draven.Ezreal.Jhin.Jinx.Kalista.Kaisa.KatarinaLucian.Tristana.Twitch.Vayne.
 # OktwAio
 * Champion list: Ashe, Caitlyn, Corki, Ezreal, Graves, Jinx, Kalista, Lucian, Sivir, Vayne, Viego, Xerath
 # Polak-i
@@ -9,6 +11,8 @@
 * Champion list: Anivia Chogath Gangplank Gwen Illaoi Jayce Kayle Lux MissFortune Reksai Renekton Tryndamere Urgot Warwick ngộkhông Xinzhao Yorick buff garen ivern khazix Mordekaiser morgana mundo rumble ryze talyah trundle twistedfate veigar
 # DogAIO
 * Champion list: Ahri-Blitzcrank-Brand-Leona-Lissandra-Lulu-Lux(NoFarming)-Malzahare-Nami-Nidalee-Nautilus-Thresh-Zileans-Rumble-Soraka.
+# PerfectAio
+* Champion list: Yone, Kindred, LeeSin, Tristana, Vayne, Akshan, Irelia Yasuo, Katarina, Thresh, Twitch, Samira, Kalista, Kaisa Xerath, Ezreal, Jinx, Riven, Syndra, TwistedFate
 # ShinkyAio
 * Supported Champions: Blitzcrank - MissFortune - Kog'Maw - Ezreal
 # ToxicAio
