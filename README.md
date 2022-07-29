@@ -9,6 +9,8 @@
 * Champion list: Caitlyn-Graves-Jinx-Kalista-Lucian-Sivir-Vayne-Xerath-Ashe-Corki
 # SimpleAIO
 * Champion list: Anivia Chogath Gangplank Gwen Illaoi Jayce Kayle Lux MissFortune Reksai Renekton Tryndamere Urgot Warwick ngộkhông Xinzhao Yorick buff garen ivern khazix Mordekaiser morgana mundo rumble ryze talyah trundle twistedfate veigar
+# SupportAIO
+* Champion list: Janna Karma Lulu Zyra
 # DogAIO
 * Champion list: Ahri-Blitzcrank-Brand-Leona-Lissandra-Lulu-Lux(NoFarming)-Malzahare-Nami-Nidalee-Nautilus-Thresh-Zileans-Rumble-Soraka.
 # PerfectAio
